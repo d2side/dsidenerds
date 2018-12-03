@@ -1,0 +1,33 @@
+.header {
+  background-color: #eeeeee; }
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; }
+      .nav ul li {
+        list-style: none; }
+        .nav ul li.contact-nav {
+          margin-right: 22px; }
+      .nav ul a {
+        text-decoration: none;
+        margin-right: 46px; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 879 px; }
